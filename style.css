@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #b3edff;
+    font-family: "Poppins", sans-serif;
+}
+
+
+img{
+    width: 100%;
+}
+
+ 
+h2{
+    margin: 0px  30px 30px;
+    font-size: 25px;
+}
+
+ .btn{
+    outline: none;
+    display: block;
+    margin: auto;
+    border: 0;
+    font-size: 25px;
+    padding: 16px 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    background:#0081D5 ;
+    color: floralwhite;
+    cursor: pointer;
+    transition: all 0.3 linear;
+ }
+ .btn:hover,
+ .btn:focus{background:  #005C99;}
+ .btn:active {
+     background: #003659;
+ }
+
+ .label{
+    margin: 10px 60px;
+    padding: 10px 60px;
+    background: black;
+    color:  white;
+    border-radius: 4px;
+   }
+   li{
+       padding: 10px;
+   }
+   ul{
+       margin: 10px 90px;
+
+   }
+   a{
+       text-decoration: none;
+       color: black;
+   }
+ 
+   .pad{
+       color: red;
+   }
+@media(min-width:1000px)
+{
+   
+    h2{
+       
+       font-size: 30px;
+     margin-left: 100px;
+    }
+    .btn{
+        outline: none;
+     display: inline;
+     margin-left: 60px;
+     }
+     img{
+        width:30%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        
+    }
+    .label{
+        margin: 20px 200px;
+
+       }
+    ul{
+           margin-left: 225px;
+           font-size: 20px;
+       }
+
+       div{
+           float: left;
+       }
+    .Cours{
+        width: 33.33%;
+      
+    }
+
+    .TPs{
+        width: 33.33%;
+        
+    }
+    
+    .Exams{
+        width: 33.33%;
+     
+    }
+    
+}
+
+ 

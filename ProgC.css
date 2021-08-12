@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #b3edff;
+    font-family: "Poppins", sans-serif;
+}
+
+
+img{
+    width: 100%;
+}
+
+.label{
+ margin: 10px 60px;
+ padding: 10px 60px;
+ background: black;
+ color:  white;
+ border-radius: 4px;
+}
+li{
+    padding: 10px;
+}
+ul{
+    margin: 10px 90px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media(min-width:1000px)
+{
+    
+    img{
+        width:30%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        
+    }
+    .label{
+        margin: 20px 200px;
+
+       }
+    ul{
+           margin-left: 225px;
+           font-size: 20px;
+       }
+
+    
+    .Cours{
+        width: 33.33%;
+        float: left;
+    }
+    .TDs{
+        width: 33.33%;
+        margin: 0 auto;
+    }
+    .Exams{
+        width: 33.33%;
+        float: right;
+        transform: translateY(-218px);
+
+    }
+}
